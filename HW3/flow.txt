@@ -1,0 +1,29 @@
+populate
+
+movies - mid, title, year, all_critics_rating, all_critics_num, top_critics_rating, top_critics_num, audience_rating, audience_num (0, 1, 5, 7, 8, 12, 13, 17, 18)
+movie_genres - mid, genre (0, 1)
+movie_countries - mid, country (0, 1)
+movie_locations - mid, location1 (0, 1)
+movie_actors - mid, aid, aname, aranking (0, 1, 2, 3)
+movie_directors - mid, did, dname (0, 1, 2)
+tags - tid, tagvalue, tagweight (0, 1, 2)
+movie_tags - mid, tid (0, 1)
+user_ratedmovies - uid, mid, rating (0, 1, 2)
+user_taggedmovies - uid, mid, tid (0, 1, 2)
+
+27884 7.1 35 2004
+27899 4.6 75 2004
+
+All genres (or) and from year 2000 = 3516 movies, 4236 tags
+
+
+select index_name, column_name
+from user_ind_columns
+where table_name = 'MOVIE_GENRES';
+
+
+javac Populate.java
+java -cp .:drivers/ojdbc8.jar Populate dataset/movies.dat dataset/movie_genres.dat dataset/movie_countries.dat dataset/movie_locations.dat dataset/tags.dat dataset/movie_tags.dat
+
+javac hw3.java
+java -cp .:drivers/ojdbc8.jar hw3

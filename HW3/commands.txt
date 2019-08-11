@@ -1,0 +1,5 @@
+javac Populate.java
+java -cp .:drivers/ojdbc8.jar Populate dataset/movies.dat dataset/movie_genres.dat dataset/movie_countries.dat dataset/movie_locations.dat dataset/tags.dat dataset/movie_tags.dat
+
+javac hw3.java
+java -cp .:drivers/ojdbc8.jar hw3
