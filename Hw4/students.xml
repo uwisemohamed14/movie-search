@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDENTS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="students.xsd">
+    <STUDENT>
+        <SSN>111-00-1111</SSN>
+        <NAME>Rylan</NAME>
+        <DOB>1968-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Both</TYPE>
+        <BUILDINGCODE>CFX</BUILDINGCODE>
+        <BUILDINGCODE>JEP</BUILDINGCODE>
+        <PHONE>213-740-1111</PHONE>
+        <PHONE>213-740-1112</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-2222</SSN>
+        <NAME>Joshua</NAME>
+        <DOB>1970-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Both</TYPE>
+        <BUILDINGCODE>RTH</BUILDINGCODE>
+        <BUILDINGCODE>OHE</BUILDINGCODE>
+        <PHONE>213-740-2222</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-3333</SSN>
+        <NAME>Allen</NAME>
+        <DOB>1969-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Both</TYPE>
+        <BUILDINGCODE>RTH</BUILDINGCODE>
+        <PHONE>213-740-3333</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-4444</SSN>
+        <NAME>Aidan</NAME>
+        <DOB>1985-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Both</TYPE>
+        <BUILDINGCODE>JHH</BUILDINGCODE>
+        <BUILDINGCODE>REG</BUILDINGCODE>
+        <PHONE>213-740-4444</PHONE>
+        <PHONE>213-740-4445</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-5555</SSN>
+        <NAME>Aiden</NAME>
+        <DOB>1982-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Both</TYPE>
+        <BUILDINGCODE>LVY</BUILDINGCODE>
+        <BUILDINGCODE>VKC</BUILDINGCODE>
+        <BUILDINGCODE>WPH</BUILDINGCODE>
+        <BUILDINGCODE>KOH</BUILDINGCODE>
+        <PHONE>213-740-5555</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-6666</SSN>
+        <NAME>Barak</NAME>
+        <DOB>1979-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Master</TYPE>
+        <PHONE>213-740-6666</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-7777</SSN>
+        <NAME>Basil</NAME>
+        <DOB>1978-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Master</TYPE>
+        <BUILDINGCODE>LVY</BUILDINGCODE>
+        <BUILDINGCODE>VKC</BUILDINGCODE>
+        <BUILDINGCODE>WPH</BUILDINGCODE>
+        <PHONE>213-740-7777</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-8888</SSN>
+        <NAME>Cayden</NAME>
+        <DOB>1975-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Master</TYPE>
+        <BUILDINGCODE>RTH</BUILDINGCODE>
+        <BUILDINGCODE>SAL</BUILDINGCODE>
+        <BUILDINGCODE>OHE</BUILDINGCODE>
+        <PHONE>213-740-8888</PHONE>
+        <PHONE>213-740-8889</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-9999</SSN>
+        <NAME>Brendon</NAME>
+        <DOB>1972-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Master</TYPE>
+        <BUILDINGCODE>RTH</BUILDINGCODE>
+        <BUILDINGCODE>SAL</BUILDINGCODE>
+        <PHONE>213-740-9999</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-00-0000</SSN>
+        <NAME>Nate</NAME>
+        <DOB>1973-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Master</TYPE>
+        <PHONE>213-740-0000</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-1111</SSN>
+        <NAME>Hannah</NAME>
+        <DOB>1965-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Master</TYPE>
+        <BUILDINGCODE>RTH</BUILDINGCODE>
+        <BUILDINGCODE>SAL</BUILDINGCODE>
+        <BUILDINGCODE>OHE</BUILDINGCODE>
+        <PHONE>213-741-1111</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-2222</SSN>
+        <NAME>Zoe</NAME>
+        <DOB>1962-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Master</TYPE>
+        <BUILDINGCODE>CFX</BUILDINGCODE>
+        <BUILDINGCODE>STU</BUILDINGCODE>
+        <BUILDINGCODE>BKS</BUILDINGCODE>
+        <PHONE>213-741-2222</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-3333</SSN>
+        <NAME>Alexis</NAME>
+        <DOB>1963-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Phd</TYPE>
+        <PHONE>213-741-3333</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-4444</SSN>
+        <NAME>Madison</NAME>
+        <DOB>1975-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Phd</TYPE>
+        <BUILDINGCODE>KOH</BUILDINGCODE>
+        <BUILDINGCODE>CFX</BUILDINGCODE>
+        <BUILDINGCODE>SAL</BUILDINGCODE>
+        <PHONE>213-741-4444</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-5555</SSN>
+        <NAME>Adalgisa</NAME>
+        <DOB>1976-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Phd</TYPE>
+        <BUILDINGCODE>CFX</BUILDINGCODE>
+        <PHONE>213-741-5555</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-6666</SSN>
+        <NAME>Cora</NAME>
+        <DOB>1977-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Phd</TYPE>
+        <BUILDINGCODE>CFX</BUILDINGCODE>
+        <BUILDINGCODE>KOH</BUILDINGCODE>
+        <PHONE>213-741-6666</PHONE>
+        <PHONE>213-741-6667</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-7777</SSN>
+        <NAME>Adalia</NAME>
+        <DOB>1982-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Phd</TYPE>
+        <PHONE>213-741-7777</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-8888</SSN>
+        <NAME>Ava</NAME>
+        <DOB>1983-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Phd</TYPE>
+        <BUILDINGCODE>RTH</BUILDINGCODE>
+        <BUILDINGCODE>OHE</BUILDINGCODE>
+        <PHONE>213-741-8888</PHONE>
+        <PHONE>213-741-8889</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-9999</SSN>
+        <NAME>Celia</NAME>
+        <DOB>1986-04-01</DOB>
+        <GENDER>M</GENDER>
+        <TYPE>Phd</TYPE>
+        <BUILDINGCODE>RTH</BUILDINGCODE>
+        <PHONE>213-741-9999</PHONE>
+    </STUDENT>
+
+    <STUDENT>
+        <SSN>111-11-0000</SSN>
+        <NAME>Zaida</NAME>
+        <DOB>1983-04-01</DOB>
+        <GENDER>F</GENDER>
+        <TYPE>Phd</TYPE>
+        <BUILDINGCODE>SAL</BUILDINGCODE>
+        <BUILDINGCODE>EEB</BUILDINGCODE>
+        <PHONE>213-741-0000</PHONE>
+    </STUDENT>
+
+</STUDENTS>

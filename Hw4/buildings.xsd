@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="ADDRESS">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="STREETNO" type="xs:integer"></xs:element>
+                <xs:element name="STRNAME" type="xs:string"></xs:element>
+                <xs:element name="CITY" type="xs:string"></xs:element>
+                <xs:element name="STATE" type="xs:string"></xs:element>
+                <xs:element name="ZIP" type="xs:integer"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="POSITION">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="LAT" type="xs:decimal"></xs:element>
+                <xs:element name="LONG" type="xs:decimal"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="BUILDINGCODE">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="\s*[a-z|A-Z]{3}\s*"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="BUILDING">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="BUILDINGCODE"></xs:element>
+                <xs:element name="BUILDINGNAME"></xs:element>
+                <xs:element ref="POSITION"></xs:element>
+                <xs:element ref="ADDRESS" minOccurs="0" maxOccurs="1"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="BUILDINGS">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="BUILDING" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
